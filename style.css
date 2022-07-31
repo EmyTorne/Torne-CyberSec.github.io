@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),black),url(pic/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 120px;
+    position: absolute;
+    top: 3%;
+    left: 10px;
+    
+}
+.banner-text{
+    
+    padding-top: 180px;
+}
+
+.banner-text h3{
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+}
+.banner-text h4{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 25px;
+    left: 10%;
+    top: 30%;
+    color: grey;
+}
+.banner-text h5{
+    font-family: arial;
+    position: absolute;
+    font-size: 25px;
+    left: 10%;
+    top: 40%;
+    color: skyblue;
+}
+
+.banner-text a{
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    font-size: 20px;
+    left: 10%;
+    top: 50%;
+    color: #fff;
+
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    margin: 0 10px;
+    padding: 12px 0;
+    border: .5px solid #fff;
+    z-index: 1;
+    transition: color 0.5s;
+    background-color: black;
+    font-weight: bold;
+    
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background:linear-gradient(rgba(0,0,0,0.5),skyblue);
+    z-index: 1;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#menuBt{
+    width: 50px;
+    height: 50px;
+    color: red;
+    position: fixed;
+    text-align: center;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuBt img{
+    width: 20px;
+    margin-top: 15px;
+
+}
+@media screen and(max-width: 770px){
+}
+.banner-text h1{
+    font-size: 44px;
+    color: white;
+
+}
+.banner-btn a{
+    display: block;
+    margin: 20px auto;
+
+}
+/*--about --*/
+
+#about{
+    text-align: center;
+    
+    padding-top: 150px;
+    background:linear-gradient(rgba(0,0,0,0.5),black),url(pic/Computer\ tech.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.about-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    position: center;
+    margin-top: -10px;
+}
+.about-title{
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    font-size: 50px;
+    color: white;
+}
+.about-btn{
+    text-align: center;
+    
+    padding-top: 150px;
+    margin: 70px auto 0;
+    font-weight: bold;
+}
+.about-btn a{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Cormorant SC', serif;
+    width: 380px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.about-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s;
+}
+.about-btn a:hover span{
+    width: 300px;
+}
+.about-btn a:hover{
+    color: black;
+}
+/*-- cyber --*/
+#cyber {
+    background:linear-gradient(rgba(0,0,0,0.5), black), url(pic/About.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.cyber-text{
+    
+    padding-top: 140px;    
+}
+
+.cyber-text h3{
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    position: relative;
+    margin-left: 10%;
+    top: 20%;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+    z-index: 1;
+    display: inline-block;
+}
+.cyber-text h3::after{
+   content: '';
+   width: 80px;
+   height: 80px;
+   background:linear-gradient(rgba(0,0,0,0.5),blue);
+   position: absolute;
+   top: -30%;
+   left: 0;
+   z-index: -1;
+   transform: rotate(-30deg);
+}
+
+.cyber-text h2{
+    font-family: 'Crimson Text', serif;
+    text-align: initial;
+    position: relative;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 12%;
+    top: 50%;
+    color: skyblue;
+    padding-top: 50px;
+    width: 600px;
+
+
+}
+
+/*-- threats --*/
+#threats {
+    background:linear-gradient(rgba(0,0,0,0.5), black), url(pic/About.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.threats-text{
+    
+    padding-top: 140px;    
+}
+
+.threats-text h3{
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    position: relative;
+    margin-left: 10%;
+    top: 20%;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+    z-index: 1;
+    display: inline-block;
+}
+.threats-text h3::after{
+   content: '';
+   width: 80px;
+   height: 80px;
+   background:linear-gradient(rgba(0,0,0,0.5),red);
+   position: absolute;
+   top: -30%;
+   left: 0;
+   z-index: -1;
+   transform: rotate(-30deg);
+}
+
+.threats-text h2{
+    font-family: 'Crimson Text', serif;
+    text-align: initial;
+    position: relative;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 12%;
+    top: 50%;
+    color: pink;
+    padding-top: 50px;
+    width: 600px;
+}
+.threats-box a{
+
+    position: relative;
+    font-size: 15px;
+    left: 40%;
+    
+    top: 200px;
+    bottom: 20px;
+    color: #fff;
+
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    margin: 0 10px;
+    padding: 12px 0;
+    border: 3px solid #fff;
+    z-index: 1;
+    transition: color 0.5s;
+    background-color: red;
+    font-weight: bold;
+    
+}
+
+/*-- management --*/
+#management {
+    background:linear-gradient(rgba(0,0,0,0.5), black), url(pic/About.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.management-text{
+    
+    padding-top: 120px;    
+}
+
+.management-text h3{
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    position: relative;
+    margin-left: 10%;
+    top: 20%;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+    z-index: 1;
+    display: inline-block;
+}
+.management-text h3::after{
+   content: '';
+   width: 80px;
+   height: 100px;
+   background:linear-gradient(rgba(0,0,0,0.5),green);
+   position: absolute;
+   top: -30%;
+   left: 0;
+   z-index: -1;
+   transform: rotate(-30deg);
+}
+
+.management-text h2{
+    font-family: 'Crimson Text', serif;
+    text-align: initial;
+    position: relative;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 12%;
+    top: 50%;
+    color: lightgreen;
+    padding-top: 50px;
+    width: 650px;
+}
+
+/*--studies --*/
+#studies{
+    width:100%;
+    padding:70px 0;
+    background: white;
+}
+.title-text{
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+    padding-bottom:70px;
+}
+.title-text p{
+    margin:auto;
+    font-size: 40px;
+    color:red;
+    font-weight:bold;
+    position: relative;
+    top: 20%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content: '';
+    width: 80px;
+    height: 40px;
+    background:linear-gradient(red,white);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+ }
+.title-text h1{
+    margin:auto;
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+}
+.studies-box{
+    width:80%;
+    height: 50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:auto;
+}
+.single-studies{
+    flex-basis:48%;
+    text-align:center;
+    border-radius:7px;
+    margin-bottom:20px;
+    color:#fff;
+    position:relative;
+}
+.single-studies img{
+    width:100%;
+    height: 100%;
+    border-radius:7px;
+}
+.overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    border-radius:7px;
+    cursor:pointer;
+    background:linear-gradient(rgba(0,0,0,0.5),red);
+    opacity:0;
+    transition:1s;
+}
+.single-studies:hover .overlay{
+    opacity: 1;
+}
+.service-desc{
+    width:80%;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform:translateX( -50%);
+}
+hr{
+    background: #fff;
+    height: 2px;
+    margin: 15px auto;
+    border: 0;
+    width: 60%;
+}
